@@ -4,7 +4,7 @@ from typing import List
 import matplotlib.pyplot as plt
 
 
-class PlotEEG:
+class PlotEEG: #eeg raw data 그려주는 것
     def __init__(
         self,
         channels: List,
