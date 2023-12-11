@@ -29,7 +29,7 @@ def erp_mbti(
         os.makedirs(f"./event/{today}")
 
 
-    mbti_task(
+    """mbti_task(
         screen_width=screen_width,
         screen_height=screen_height,
         isi=isi,
@@ -37,7 +37,7 @@ def erp_mbti(
         num_trials=num_trials, 
         num_images=num_images,
         event_save_path=f"{event_save_path}/{today}"
-    )
+    )"""
 
     rawdata_folders = os.listdir("C:/MAVE_RawData")
 
