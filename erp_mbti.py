@@ -152,7 +152,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--num_images",
         type=int,
-        default=40,
+        default=8, #우리계획상 여기 default는 40임.
         help="Set number of clothes to use in the task",
     )
     parser.add_argument(
@@ -181,7 +181,7 @@ if __name__ == "__main__":
         isi=args.isi,
         fs=args.fs,
         channels=args.channels,
-        image_folder=f"{args.imapge_path}",
+        image_folder=f"{args.image_path}",
         num_trials=args.num_trials,
         num_images=args.num_images,
         event_save_path=f"{args.event_save_path}",
