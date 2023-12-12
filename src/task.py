@@ -33,6 +33,9 @@ def mbti_task(
             start_time = pygame.time.get_ticks()
             
             task_image = pygame.image.load(f"{image_folder}/tasks/M{num_image+1}.jpg")
+            time.sleep(isi / 1000.0)
+            start_time = pygame.time.get_ticks()
+            
             
             screen.blit( #스크린에 이미지 가운데 정렬
                 task_image,
