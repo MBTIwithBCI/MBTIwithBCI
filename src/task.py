@@ -34,7 +34,7 @@ def mbti_task(
             
             task_image = pygame.image.load(f"{image_folder}/tasks/M{num_image+1}.jpg")
             ####
-            task_image = pygame.transform.scale(task_image, (512, 512)) # image scale change 부분
+            task_image = pygame.transform.scale(task_image, (800, 800)) # image scale change 부분
             ####
             time.sleep(isi / 1000.0)
             start_time = pygame.time.get_ticks()

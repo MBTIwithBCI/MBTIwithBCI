@@ -7,9 +7,9 @@ def result(
     avg_evoked_list: List, times_list: List,image_folder: str, screen_width: int, screen_height: int, channels: List,result_dir:str
 ):
     #P300구하기
-    print("avg_evoked_list 시험 출력 ")
-    print(avg_evoked_list)
-    print("\n")
+    #print("avg_evoked_list 시험 출력 ")
+    #print(avg_evoked_list)
+    #print("\n")
     max_values_per_channels = []
     for channel_idx in range(len(channels)):
         max_values = []
